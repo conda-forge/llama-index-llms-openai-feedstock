@@ -1,5 +1,5 @@
 {% set name = "llama-index-llms-openai" %}
-{% set version = "0.3.28" %}
+{% set version = "0.3.29" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/llama_index_llms_openai-{{ version }}.tar.gz
-    sha256: e343ef2d78a669a1fd1374e0136fa490d18f223d1ed9b1912c419f6e3fb03f55
+    sha256: df6d2ff73852a4718094f6b02664569d28aba4b7848b44a510440c76f13c2e27
   # https://github.com/run-llama/llama_index/issues/10806
   - url: https://raw.githubusercontent.com/run-llama/llama_index/main/LICENSE
     sha256: 24f40b5190fdacabc24ddbb5f76364d15e4f030925220ea300d8a2dd4993c8cb
@@ -23,7 +23,7 @@ requirements:
     - poetry-core
     - pip
   run:
-    - openai >=1.58.1,<2.0.0
+    - openai >=1.66.3,<2.0.0
     - python >={{ python_min }},<4.0
     - llama-index-core >=0.12.17,<0.13.0
 
