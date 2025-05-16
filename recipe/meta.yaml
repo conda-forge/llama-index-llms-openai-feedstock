@@ -1,5 +1,6 @@
 {% set name = "llama-index-llms-openai" %}
 {% set version = "0.3.40" %}
+{% set python_min = "3.10" %}
 
 package:
   name: {{ name|lower }}
