@@ -24,7 +24,7 @@ requirements:
     - hatchling
     - pip
   run:
-    - openai >=1.81.0,<2
+    - openai >=1.99.0,<2
     - python >={{ python_min }},<4.0
     - llama-index-core >=0.13.0,<0.14
 
