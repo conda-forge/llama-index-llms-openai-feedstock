@@ -1,5 +1,5 @@
 {% set name = "llama-index-llms-openai" %}
-{% set version = "0.6.8" %}
+{% set version = "0.6.9" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/llama_index_llms_openai-{{ version }}.tar.gz
-    sha256: 8a243e49b1b120cb437f2d525f901c1bb2187fe1ba53407a2cce7f92b2fda548
+    sha256: 4c8c91a5e5b0e59b44ecd8fe43156e93c6abf1c9ca8e1e4ad3e4834c84f51199
   # https://github.com/run-llama/llama_index/issues/10806
   - url: https://raw.githubusercontent.com/run-llama/llama_index/main/LICENSE
     sha256: 24f40b5190fdacabc24ddbb5f76364d15e4f030925220ea300d8a2dd4993c8cb
