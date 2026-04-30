@@ -3,7 +3,7 @@ About llama-index-llms-openai-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/llama-index-llms-openai-feedstock/blob/main/LICENSE.txt)
 
-Home: https://llamaindex.ai
+Home: https://llamaindex.ai/
 
 Package license: MIT
 
