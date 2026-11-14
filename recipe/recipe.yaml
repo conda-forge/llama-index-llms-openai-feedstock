@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: llama-index-llms-openai
-  version: 0.8.4
+  version: "0.9.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/llama_index_llms_openai-${{ version }}.tar.gz
-    sha256: 7ce28b074f177baa19990a0f8935cb4f379766cd9d2de82dc426a9e0b9578bc1
+    sha256: 6819dea1fa49b6aa34ee449b10d690225a8557eba36ccfbd79bb45b3f9609e2a
   # https://github.com/run-llama/llama_index/issues/10806
   - url: https://raw.githubusercontent.com/run-llama/llama_index/main/LICENSE
     sha256: 24f40b5190fdacabc24ddbb5f76364d15e4f030925220ea300d8a2dd4993c8cb
